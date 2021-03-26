@@ -28,7 +28,7 @@ export default {
    mounted(){
      setTimeout( ()=>{
          this.Start_Counting=true
-         this.interval = setInterval(() => { this.timer1+=4 }, 4);
+         this.interval = setInterval(() => { this.timer1+=10 }, 10);
 
 
      },1000+Math.random()*7000 )
